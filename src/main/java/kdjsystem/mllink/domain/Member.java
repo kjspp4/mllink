@@ -20,7 +20,7 @@ public class Member {
     private  Address address;
 
 
-    @OneToMany(mappedBy = "member" )
+    @OneToMany(mappedBy = "member" ,fetch = FetchType.LAZY)
     private List<Order> orderList= new ArrayList<>();
 
 }
