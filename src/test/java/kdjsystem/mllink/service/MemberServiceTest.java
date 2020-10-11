@@ -43,6 +43,7 @@ public  class MemberServiceTest {
         // given
         Member member1 = new Member();
         member1.setName("kim");
+        // test
         Member member2 = new Member();
         member2.setName("kim");
 
